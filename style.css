@@ -42,3 +42,33 @@ body, html {
     margin: 0 auto;
     border: 1px black solid;
 }
+
+.service {
+    position: relative;
+    left: 150px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.service-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px;
+}
+
+.service:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#services {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
